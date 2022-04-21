@@ -1,0 +1,38 @@
+type = user
+count = 1
+speed = 1.0
+start data >> 
+LaunchActivity(com.nox.game.mla, com.nox.game.fc.FcEmulatorActivity)
+UserWait(3000)
+DispatchPointer(0,0,0,1440,324,0,0,0,0,0,0,0)
+DispatchPointer(0,0,1,1440,324,0,0,0,0,0,0,0)
+UserWait(500)
+DispatchPointer(0,0,0,1523,447,0,0,0,0,0,0,0)
+DispatchPointer(0,0,1,1523,447,0,0,0,0,0,0,0)
+UserWait(500)
+DispatchPointer(0,0,0,1344,438,0,0,0,0,0,0,0)
+DispatchPointer(0,0,1,1344,438,0,0,0,0,0,0,0)
+UserWait(500)
+DispatchPointer(0,0,0,1439,563,0,0,0,0,0,0,0)
+DispatchPointer(0,0,1,1439,563,0,0,0,0,0,0,0)
+UserWait(500)
+DispatchPointer(0,0,0,100,50,0,0,0,0,0,0,0)
+DispatchPointer(0,0,1,100,50,0,0,0,0,0,0,0)
+UserWait(500)
+RotateScreen(2,1)
+UserWait(500)
+LongPress()
+PressAndHold(1440, 324, 10)
+PressAndHold(1523, 447, 10)
+PressAndHold(1344, 438, 10)
+PressAndHold(1439, 563, 10)
+UserWait(500)
+Drag(158,450,150,311,500)
+UserWait(500)
+Drag(158,450,10,450,500)
+UserWait(500)
+Drag(158,450,160,600,500)
+UserWait(500)
+Drag(158,450,303,448,500)
+
+
